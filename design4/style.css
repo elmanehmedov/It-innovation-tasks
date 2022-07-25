@@ -1,0 +1,21 @@
+@import url('http://fonts.cdnfonts.com/css/avenir');
+  
+:root {
+    --black: #252525;
+  }
+   body {
+    width: 1440px;
+    height: auto;
+    background: linear-gradient(122.62deg, #C8CCCF 5.59%, #97A3A3 84.01%);
+   }
+   .absolute-right{
+    position: absolute;
+    top: 0;
+    right: 64px;
+   }
+   .absolute-left{
+    position: absolute;
+    bottom: 0;
+    left: 64px;
+
+   }

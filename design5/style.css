@@ -1,0 +1,144 @@
+.flex-container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flex-start {
+    position: relative;
+    align-self: flex-start;
+    margin: 64px 64px;
+}
+
+.flex-start-number {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(37, 37, 37, 0.45);
+}
+
+.flex-start-content {
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(37, 37, 37, 0.8);
+}
+
+.flex-center {
+    position: relative;
+    align-self: center;
+
+}
+
+.background-gradient {
+    position: absolute;
+    width: 446px;
+    height: 711px;
+    bottom: -2rem;
+    right: -2rem;
+    background: url(./images/gradient.svg);
+    filter: blur(-24px);
+
+}
+
+.flex-center-container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-center-header {
+    font-size: 72px;
+    line-height: 96px;
+    text-align: center;
+    color: #252525;
+}
+
+.flex-center-content {
+    width: 300px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin: 48px 0;
+    color: rgba(37, 37, 37, 0.8);
+
+
+}
+
+.btn-black {
+    padding: 24px 48px;
+    width: 182px;
+    height: 66px;
+    z-index: 100;
+    background: #252525;
+    border-radius: 36px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.flex-end {
+    position: relative;
+    /* 
+    margin: 100px 64px; */
+    margin-bottom: 50px;
+    align-self: flex-end;
+}
+
+.flex-end-number {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(37, 37, 37, 0.45);
+}
+
+.flex-end-content {
+    width: 440px;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(37, 37, 37, 0.8);
+
+}
+
+
+.star-left {
+    position: absolute;
+}
+
+.left-absolute-star {
+    position: absolute;
+    width: 255px;
+    height: 320px;
+    background: url(./images/star.png);
+    right: 15rem;
+    top: 1rem;
+}
+
+.right-absolute-star {
+    position: absolute;
+    width: 190px;
+    height: 240px;
+    background: url(./images/star-s.png);
+    left: 19rem;
+    bottom: 4rem;
+
+}
+
+.sun {
+    position: absolute;
+    background: url(./images/sun.png);
+    width: 164px;
+    height: 164px;
+    bottom: 50px;
+    right: 2rem;
+}
+
+.explosion-absolute {
+    position: absolute;
+    background: url(./images/Explosion.png);
+    width: 180px;
+    height: 180px;
+    top: 7rem;
+}

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    height: 100%
+}
+
+.bg {
+    position: relative;
+    background-image: url("../images/bck.svg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    object-fit: contain;
+}
+
+.box-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 56px;
+    position: absolute;
+    width: 724px;
+    left: 64px;
+    top: 80px;
+    background: linear-gradient(124.42deg, rgba(0, 0, 0, 0.36) 5.12%, rgba(0, 0, 0, 0.0675) 102.99%);
+    backdrop-filter: blur(2px);
+    border-radius: 24px;
+
+}
+
+.color-blocks {
+    display: flex;
+}
+
+.box-hero h1 {
+
+
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.box-hero p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.btn-hero {
+    margin-top: 10px;
+    width: 182px;
+    height: 66px;
+    padding: 24px 48px;
+    background: #63E1E1;
+    box-shadow: 0px 0px 20px rgba(99, 225, 225, 0.25);
+    border-radius: 36px;
+    border: none;
+}
+
+.box-yellow {
+    width: 1rem;
+    height: 1rem;
+    background-color: #FFFF67;
+}
+
+.box-navy {
+    width: 1rem;
+    height: 1rem;
+    background-color: #3FFFFF;
+}
+
+.box-green {
+    width: 1rem;
+    height: 1rem;
+    background-color: #52DC4B;
+
+}
+
+.box-red {
+    width: 1rem;
+    height: 1rem;
+
+    background-color: #FF6E3D;
+}
+
+.box-blue {
+    width: 1rem;
+    height: 1rem;
+
+    background-color: #3D45FF;
+}
+
+.interests {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 56px;
+
+    position: absolute;
+    left: 64px;
+    top: 550px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+    backdrop-filter: blur(4px);
+
+    border-radius: 32px;
+}
+
+.interest-box {
+    margin: 24px 56px;
+
+    width: 200px;
+}
+
+.interest-box h3 {
+    color: #fff;
+}
+
+.interest-box p {
+    color: #fff;
+}

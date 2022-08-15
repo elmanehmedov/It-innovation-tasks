@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+ body {
+    font-family: 'Poppins', sans-serif;
+ }
+  li{
+    list-style: none; 
+  }
+  a{
+    text-decoration: none ;
+  }
+  .navbar, .navbar__menu, .registration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar__menu {
+    margin-left: 6rem;
+  }
+  .navbar__menu__item:nth-child(1){
+    font-weight: bold;
+  }
+   .navbar__menu__item:not(:last-child){
+    margin-right: 1rem; 
+  }
+  .registration__menu__item{
+    padding: 1rem;
+  }
+
+  .registration__menu__item:nth-child(2){
+    background: #F5F2EC;
+    border-bottom-left-radius: 1rem;
+  }
+  .navbar__menu__item_title {
+    padding: 10px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: bold;
+     
+  }
+      #main {
+        margin-top: 5rem;
+      }
+   .first-row {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    position: relative;
+
+   }
+   .chat__image {
+    position: absolute;
+    right: 24%;
+    bottom: 0%;
+    width: 350px;
+    height: 300px;
+    
+   }
+   .chat__ image img {
+    width: 500px;
+    
+    max-width: 100%;  
+    height: auto;
+    object-fit: cover; 
+   }
+   .chat-text {
+    width: 500px;
+   }
+    .chat__text__title{
+        width: 500px;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4.5rem;
+           
+   }
+   .second-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+   }
+
+
+
+
+
+  @media screen and (max-width:567px )  {
+    .navbar, .navbar__menu, .registration {
+        
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+      }
+  }
+  
+  @media screen and (min-width:567px ) and (max-width:768px)  {
+    .navbar, .navbar__menu, .registration {
+        
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+      }
+  }
+  
+
